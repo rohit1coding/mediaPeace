@@ -10,9 +10,7 @@ html {
   width: auto;
   height: 40px;
 }
-.navbar__mobile__view {
-  /* visibility: hidden; */
-  /* display: none; */
+.navbar {
   background-color: var(--primary-color);
   color: white !important;
 }
@@ -20,11 +18,7 @@ html {
 .nav-link {
   color: white;
 }
-.nav-item-margin {
-  /* margin: 0 250px; */
-}
 .navbar-toggler-icon {
-  /* padding: 10px; */
   padding-top: 5px;
   background-color: white;
 }
