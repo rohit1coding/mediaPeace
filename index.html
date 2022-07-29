@@ -38,22 +38,58 @@
       <div class="navbar-logo">
         <img src="./assets/logo.png" alt="Logo" />
       </div>
-      <div class="input-group">
+      <div class="input-group search__bar">
         <div class="form-outline">
-          <input type="search" id="form1" class="form-control" />
-          <label class="form-label" for="form1">Search</label>
+          <input
+            type="search"
+            id="form1"
+            class="form-control"
+            placeholder="Type here..."
+          />
         </div>
-        <button type="button" class="btn btn-primary">
-          <i class="fas fa-search"></i>
-        </button>
+        <img
+          class="search-icon"
+          src="./assets/search_button.jpg"
+          alt="Search"
+        />
       </div>
-      <ul class="navbar">
-        <li class="navbar__item">Home</li>
-        <li class="navbar__item">About Us</li>
-        <li class="navbar__item">Our Sessions</li>
-        <li class="navbar__item">Contact</li>
-      </ul>
+      <nav
+        class="navbar__mobile__view navbar navbar-expand-lg navbar-expand-md"
+      >
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <img src="./assets/menu-mobile.png" alt="" />
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item nav-item-margin">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item nav-item-margin">
+              <a class="nav-link" href="#">Our Sessions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
+
     <section class="main__carousel">
       <div
         id="carouselExampleIndicators"
@@ -108,7 +144,7 @@
         </div>
       </div>
     </section>
-    <section class="main">
+    <section class="main custom__container">
       <div class="main__content">
         <h2 class="main__content-header">Welcome MediaPeace</h2>
         <p class="main__content-details">
@@ -123,13 +159,11 @@
       <div class="main__images">
         <div class="main__image1">
           <p class="main__image-info">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            You can always control what goes on inside
           </p>
         </div>
         <div class="main__image2">
-          <p class="main__image-info">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          </p>
+          <p class="main__image-info">Meditation brings wisdom</p>
         </div>
       </div>
     </section>
@@ -144,12 +178,47 @@
         </ul>
       </div>
       <div class="footer__location">
-        <p class="footer__location-text">Get Location</p>
-        <div class="footer__location__view"></div>
+        <h5 class="footer__location-text">Get Location</h5>
+        <div class="footer__location__view">
+          <img
+            src="./assets/map_image"
+            alt="map image"
+            class="footer__location__map-image"
+          />
+        </div>
       </div>
       <div class="footer__contactus">
-        <p class="footer__contactus-text">Contact Us</p>
-        <ul class="footer__contactus__list"></ul>
+        <h5 class="footer__contactus-text">Contact Us</h5>
+        <ul class="footer__contactus__list">
+          <li class="footer__contactus__item">
+            <img
+              src="./assets/fb.png"
+              alt="icon"
+              class="footer__contactus__item-icon"
+            />
+          </li>
+          <li class="footer__contactus__item">
+            <img
+              src="./assets/google-plus.png"
+              alt="icon"
+              class="footer__contactus__item-icon"
+            />
+          </li>
+          <li class="footer__contactus__item">
+            <img
+              src="./assets/twitter.png"
+              alt="icon"
+              class="footer__contactus__item-icon"
+            />
+          </li>
+          <li class="footer__contactus__item">
+            <img
+              src="./assets/skype.png"
+              alt="icon"
+              class="footer__contactus__item-icon"
+            />
+          </li>
+        </ul>
         <p class="footer__contactus__endtext">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt,
           cupiditate.
