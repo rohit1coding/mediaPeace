@@ -190,10 +190,8 @@ html {
   .main__image2 {
     margin: 30px auto;
   }
-  .footer {
+  .footer__container {
     display: block;
-    background-color: var(--secondary-color);
-    color: white;
     padding: 10px 20px;
   }
   .footer__links {
