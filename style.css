@@ -7,8 +7,8 @@ html {
   --secondary-color: #041624;
 }
 .search-icon {
-  /* width: 40px;
-  height: auto; */
+  width: auto;
+  height: 40px;
 }
 .navbar__mobile__view {
   /* visibility: hidden; */
@@ -41,8 +41,18 @@ html {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+.navbar__top {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.navbar-logo {
+  grid-column-start: 2;
+  margin: 0 auto;
+}
 .search__bar {
-  margin-right: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navbar-desktop {
@@ -81,7 +91,7 @@ html {
 .main__images {
   display: flex;
   justify-content: space-between;
-  margin: 0 20px;
+  margin: 30px;
 }
 .main__image1 {
   background-image: url("./assets/Image-1.jpg");
@@ -157,6 +167,16 @@ html {
 @media only screen and (max-width: 998px) {
   .footer__contactus__endtext {
     max-width: 280px;
+  }
+  .navbar__top {
+    padding: 10px 0;
+    display: block;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .search__bar {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
   }
 }
 @media only screen and (max-width: 767px) {
