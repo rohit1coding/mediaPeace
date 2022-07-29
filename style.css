@@ -42,7 +42,7 @@ html {
   margin-bottom: 10px;
 }
 .search__bar {
-  margin: 0 auto;
+  margin-right: 0;
 }
 
 .navbar-desktop {
@@ -61,8 +61,6 @@ html {
 .main__carousel img {
   width: auto;
   height: 400px;
-}
-.carousel-caption {
 }
 .custom__container {
   max-width: 1200px;
