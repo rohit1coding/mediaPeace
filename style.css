@@ -118,9 +118,11 @@ html {
 }
 
 .footer {
+  background-color: var(--secondary-color);
+}
+.footer__container {
   display: flex;
   justify-content: space-between;
-  background-color: var(--secondary-color);
   color: white;
   padding: 20px;
 }
